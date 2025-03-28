@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Chicago';
+  src: url('./assets/fonts/Chicago.otf') format('opentype'); /* Adjust path */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, button {
+  font-family: 'Chicago', sans-serif;
+  color: whitesmoke;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure body takes full height */
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Hide any potential scrollbars */
+  object-fit: cover;
+}

@@ -1,0 +1,121 @@
+.title {
+  text-align: center;
+}
+
+.fgIMG {
+  position: fixed; /* or absolute if parent is positioned */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90vw;  /* 90% of viewport width */
+  max-height: 90vh; /* 90% of viewport height */
+  object-fit: contain;
+  z-index: 1;
+  pointer-events: none;
+  transition: transform 0.3s ease; /* Optional: for smooth scaling */
+}
+
+.bgIMG {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the full screen without distortion */
+  z-index: -1; /* Ensures the image is in the background, not blocking other content */
+}
+
+.textbox-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; /* Increased width */
+  max-width: 800px; /* Increased max-width */
+  min-height: 150px; /* Increased minimum height */
+  z-index: 3;
+}
+
+.textboxIMG {
+  position: absolute;
+  width: 120%; /* Make image wider than container */
+  left: 50%;
+  transform: translateX(-50%) scale(1.0); /* Scale up image */
+  height: auto;
+  bottom: 0;
+  z-index: 3;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
+.text-container {
+  position: relative;
+  z-index: 5;
+  transform: translateY(-60px); /* Move text up px */
+  margin-bottom: 15px; /* Add space between text and bottom edge */
+  padding: 20px;
+  color: white;
+  font-size: 25px
+}
+
+.all-buttons {
+  opacity: 90%;
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: row; /* Explicitly set row layout */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Increased gap for better spacing */
+  padding: 20px;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  flex-wrap: nowrap; /* Prevent wrapping to new line */
+}
+
+.button-wrapper {
+  position: relative; /* For absolute positioning of background */
+  display: inline-flex; /* Keep buttons side by side */
+  width: 560px;
+  height: 168px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1; /* Place behind button text */
+  pointer-events: none; /* Make clickable area the button */
+}
+
+.button-wrapper:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+.button-background,
+button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  position: relative;
+  z-index: 2; /* Place above background image */
+  background: transparent;
+  border: none;
+  padding: 12px 24px;
+  color: white; /* Adjust text color */
+  font-size: 3rem;
+  cursor: pointer;
+  /* Optional: match text size to background */
+  min-width: 120px; /* Match your button image width */
+  min-height: 40px; /* Match your button image height */
+}

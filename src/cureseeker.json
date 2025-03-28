@@ -1,0 +1,271 @@
+[
+    {
+        "id": 0,
+        "text":"Click Anywhere to Start",
+        "bg":"title_screen.JPG",
+        "class":"title",
+        "music":"Beyond_the_Flowers-_Main_Theme_sample.mp3"
+    },
+    {
+        "id": 1,
+        "text": "You stumble through the bushes into a sun-soaked clearing.",
+        "bg": "sunny_clearing.JPG"
+    },
+    {
+        "id": 2,
+        "text": "Bright rays of sunshine blind you for a moment as you regain your footing."
+    },
+    {
+        "id": 3,
+        "text": "Besides the sun’s soft heat, the only feeling of note is that of the sharp stickers in your paws."
+    },
+    {
+        "id": 4,
+        "text": "Well, that and the fire in your lungs. You wheeze, putting a paw to your chest."
+    },
+    {
+        "id": 5,
+        "text": "If this is what it’s like to live through hell, you hope you were virtuous enough in life. You don’t want a repeat of this when you die."
+    },
+    {
+        "id": 6,
+        "text": "Hunched over and at death’s door, you reach into your pocket desperately for your relief.",
+        "bg": "Meds.JPG"
+    },
+    {
+        "id": 7,
+        "text": "You pull out the last of your herbal remedies from back home, and with shaky paws you pop them into your mouth.",
+        "bg": "MC taking meds.JPG"
+    },
+    {
+        "id": 8,
+        "text": "This was your last hope, coming out here into these woods. Fate has caught up with your hometown apothecary, and it seems to be only a matter of time before it catches up with you.",
+        "bg": "No meds.JPG"
+    },
+    {
+        "id": 9,
+        "text": "You were told that your last hope for a cure is to find the commune in the woods, but that was all you were told. Big help, really.",
+        "bg": "sunny_clearing.JPG"
+    },
+    {
+        "id": 10,
+        "text": "At this point, you’re lost. Every tree looks like the last, and you’re losing daylight."
+    },
+    {
+        "id": 11,
+        "text": "You’re about to resign yourself to despair when you hear a disturbance come from the bushes on the other side of the clearing.",
+        "music": "dnd_somethings_not_right.mp3"
+    },
+    {
+        "id": 12,
+        "text": "Your ears perk hopefully until you hear the grunts."
+    },
+    {
+        "id": 13,
+        "text": "You have almost no time to react before a beast most foul tears its way through the foliage. The stickers that cling to your paws are nothing to this creature. It likely doesn’t even feel them. It howls and screams ferociously.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 14,
+        "text": "You’re frozen in place, unsure of what to do. The two of you are at an impasse, each of you at opposite sides of the clearing.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 15,
+        "text": "You aren’t sure if it’s seen you yet. You weigh your options.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 16,
+        "text": "MAKE YOUR CHOICE",
+        "image": "Beast.PNG",
+        "buttons": [
+            {
+                "text": "FIGHT",
+                "jump": 17
+            },
+            {
+                "text": "RUN",
+                "jump": 1000
+            },
+            {
+                "text": "TALK",
+                "jump": 2000
+            }
+        ],
+        "stopadvance" : true
+    },
+    {
+        "id": 17,
+        "text": "You decide you have no choice and suppress your fear.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 18,
+        "text": "You charge at the beast, canines bared, and manage to catch it off guard. You take it to the ground and go for its throat, but you’re stopped by a sharp pain in your chest.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 19,
+        "text": "The beast sees your moment of weakness and throws you off of itself almost effortlessly.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 20,
+        "text": "You’re stunned on impact as your back slams into a tree.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 21,
+        "text": "You knew you would die sooner rather than later, but you don’t want it to be now. Not like this.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 22,
+        "text": "You stagger to your feet and grab a low-hanging branch as your weapon. It’s now or never.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 23,
+        "text": "You rush the creature, branch angled upward toward its jaw. It seems you’ve caught it off guard again. Is it even trying to kill you?",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 24,
+        "text": "Neither of you get much time to change your minds, as your fates have already been sealed.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 25,
+        "text": "The sharp branch pierces the beast’s throat without any hesitation. It lets out a shrill, garbled shriek as it tries to rip the branch from its flesh, but as it does so it only makes the wound worse.",
+        "image": "Beast stabbed.PNG",
+        "sfx": "stab.mp3"
+    },
+    {
+        "id": 26,
+        "text": "The dying creature’s rattles and gurgles are enough to make you regret your decision, but you have no more say in this matter.",
+        "image": "Beast stabbed.PNG"
+    },
+    {
+        "id": 27,
+        "text": "You tell yourself this was self-defense, but do you really, truly believe that?",
+        "image": "Beast stabbed.PNG"
+        
+    },
+    {
+        "id": 28,
+        "text": "The beast collapses to the ground, and all you can do is watch.",
+        "image": "Beast stabbed.PNG"
+    },
+    {
+        "id": 29,
+        "text": "After a couple of minutes go by, the body before you goes slack and the awful noises stop.",
+        "image": "Beast stabbed.PNG"
+    },
+    {
+        "id": 30,
+        "text": "The beast is dead.",
+        "jump": 9000
+    },
+    {
+        "id": 1000,
+        "text": "It takes everything left in you to stop standing like a statue and make a beeline back the way you came.",
+        "sfx": "running-sounds.mp3"
+    },
+    {
+        "id": 1001,
+        "text": "You even ignore the stickers in your feet and the pain in your chest. Suddenly those aren’t as important anymore.",
+        "sfx": "running-sounds.mp3"
+    },
+    {
+        "id": 1002,
+        "text": "You’re ducking and dodging between trees, your paws pounding the dirt, when you come to the realization that you don’t hear any noise behind you.",
+        "sfx": "running-sounds.mp3"
+    },
+    {
+        "id": 1003,
+        "text": "You don’t think you’re even being chased, but you refuse to stop long enough to find out if you’re right.",
+        "sfx": "running-sounds.mp3"
+    },
+    {
+        "id": 1004,
+        "text": "Your hurting paws carry you the entire way back, retracing your steps from earlier.",
+        "sfx": "running-sounds.mp3"
+    },
+    {
+        "id": 1005,
+        "text": "When you emerge from the trees, you collapse into the dirt. Your legs are too weak to hold you anymore, and the adrenaline has worn off.",
+        "sfx": "dirt-fall.mp3"
+    },
+    {
+        "id": 1006,
+        "text": "As the silence would confirm, you were running from nothing but yourself. Now, you lay here in agony wishing you were dead, and you’ve lost all progress you’d already made.",
+        "bg": "black_bg.png"
+    },
+    {
+        "id": 1007,
+        "text": "Maybe it would’ve been smart to let sleeping dogs lie.",
+        "jump": 9003
+    },
+    {
+        "id": 2000,
+        "text": "Do you really think that’s a good idea?",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 2001,
+        "text": "You approach the beast with caution.",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 2002,
+        "text": "\"Hello? Are you hurt?\"",
+        "image": "Beast.PNG",
+        "sfx": "animal_talking.mp3"
+    },
+    {
+        "id": 2003,
+        "text": "It notices you and bellows loudly. It steps back as if to prepare to charge...",
+        "image": "Beast.PNG"
+    },
+    {
+        "id": 2004,
+        "text": "...before rushing past you into the trees. Safe to say the beast does not want to talk."
+    },
+    {
+        "id": 2005,
+        "text": "You decide it’s best not to follow it.",
+        "jump": 9000
+    },
+    {
+        "id": 9000,
+        "text": "You brush yourself off and decide to resume your trek through the trees.",
+        "bg": "sunset_flower.JPG",
+        "music":"Beyond_the_Flowers-_Main_Theme_sample.mp3"
+    },
+    {
+        "id": 9001,
+        "text": "This time though, you choose to walk in the direction that the beast came from. What harm could it bring? It’s more of a lead than you had before."
+    },
+    {
+        "id": 9002,
+        "text": "You follow the beast’s footprints and hope for the best."
+    },
+    {
+        "id": 9003,
+        "bg": "End demo.JPG",
+        "class": "title"
+    },
+    {
+        "id": 9004,
+        "bg": "Thanks.JPG",
+        "class": "title"
+    },
+    {
+        "id": 9005,
+        "bg": "Credits.JPG",
+        "class": "title",
+        "stopadvance" : true
+    }
+    
+]
